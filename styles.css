@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'oswald';
+    src: url('./technology/Technology-Italic.ttf');
+}
+
+html,
+body,
+div,
+h1,
+h2
+{
+    font-family: oswald;
+
+}
+
+body {
+    color: Red;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-color:black;
+}
+
+#clock-content {
+    text-align: center;
+    font-size: 50px;
+    border: white 5px double;
+    width: 90%;
+    letter-spacing: 20px;
+}
+#day{
+    font-size: 40px;  
+    letter-spacing: 15px;
+}
+
+@media (max-width: 400px) {
+    #clock-content {
+        font-size: 40px;
+    }
+}
